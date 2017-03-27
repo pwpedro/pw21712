@@ -1,9 +1,8 @@
 body{
-	border: 1px blue;
 	font-size: 16px;
-	margin: 0 auto-,
+	margin: 0 auto;
 	max-width: 1024px;
-}
+	}
 header nav{
 	background: #FF530D;
 	color: white;
@@ -13,4 +12,18 @@ header nav{
 header nav ul li{
 	display: inline-block;
 	margin-right: 20px;
+	padding: 7px;
+}
+.mitema{
+	color: grey;
+	font-size: 1em;
+	text-align: left;
+}
+
+body ul{
+	list-style:none;
+}
+body form{
+	float:right;
+	position: relative;
 }

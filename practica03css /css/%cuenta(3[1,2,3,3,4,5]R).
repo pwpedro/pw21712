@@ -1,0 +1,10 @@
+%cuenta(3[1,2,3,3,4,5]R).
+%R=2
+cuenta(X,[],0).
+cuenta(X,[X|L],R):-R is R1+1,cuenta(X,L,R1).
+cuenta(X,[ |L],R):-cuenta(X,L,R).
+
+
+
+
+%MAYOR ([2,8,16,2,4]R) 
