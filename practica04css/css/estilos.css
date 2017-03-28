@@ -1,0 +1,24 @@
+body{
+	background: #275E90;
+	margin: 0 auto;
+	font-size: 16px;
+	width: 1024px;
+}
+header nav ul li{
+	display: inline-block;
+	background: #DADEE2;
+}
+header nav{
+	background: #DADEE2;
+}
+header nav ul{
+	text-align: right;
+	list-style: none;
+}
+#logo{
+	right: -300px;
+	float: center;
+	position: relative;
+}
+
+
