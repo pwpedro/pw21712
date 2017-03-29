@@ -3,10 +3,18 @@ body{
 	margin: 0 auto;
 	font-size: 16px;
 	width: 1024px;
+
+}
+section{
+	display: inline-block;
+	vertical-align: top;
 }
 header nav ul li{
 	display: inline-block;
 	background: #DADEE2;
+}
+header nav img{
+	width: 100px;
 }
 header nav{
 	background: #DADEE2;
@@ -16,9 +24,55 @@ header nav ul{
 	list-style: none;
 }
 #logo{
-	right: -300px;
+	right: -400px;
 	float: center;
 	position: relative;
+	width: 200px;
+}
+#barra01{
+	width: 200px;
+}
+#barra02{
+	width: 200px;
+}
+#barra03{
+	width: 200px;
+}
+#barra04{
+	width: 200px;
+}
+#seccion01{
+	border: 1px solid #DADEE2;
+	width: 22.1%;
+}
+#seccion02{
+	border: solid white;
+	width: 75%;
+}
+#art01sec02 article{
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	margin-right: 10PX;
+
+}
+#art03sec02{
+	display: inline-block;
+}
+#art02sec02 img{
+	width: 700px;
+}
+#cubo1{
+	background: green;
+}
+#cubo2{
+	background: blue;
+}
+#cubo3{
+	background: purple;
+}
+#cubo4{
+	background: red;
 }
 
 
